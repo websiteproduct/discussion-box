@@ -112,11 +112,10 @@ body {
 
 .message-details {
 	display: flex;
-	width: 150px;
 	align-items: center;
 	border-right: 1px solid #283849;
 	padding: 10px 0;
-	flex-shrink: 0;
+	flex: 0 0 150px;
 }
 
 .message-details .author {
